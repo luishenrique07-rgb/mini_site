@@ -1,0 +1,32 @@
+h1 span{
+    background-color: #00FFFF;
+  color: black;
+
+}
+.agua{
+    color: rgb(247, 0, 0);
+}
+#agua{
+    color: blue;
+}
+.azul{
+    color: aquamarine;
+}
+.rosa{
+    color: blue;
+}
+img{
+    display: block; /* Imagens precisam virar bloco para a margem funcionar */ 
+  clip-path: circle(40%);
+  shape-outside: circle(60%); /* Opcional: define um tamanho para ela */
+}
+body{
+    background-color: rgb(241, 200, 220);
+}
+nav a{
+  text-decoration: none;  
+  color: rgb(6, 10, 253);           
+  margin: 0 10px;        
+  display: inline-flex;    
+  align-items: center;
+}
